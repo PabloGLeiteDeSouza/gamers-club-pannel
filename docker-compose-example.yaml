@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:latest
+    container_name: gamers_club_pannel_database
+    ports:
+      - "15432:5432"
+    environment:
+      POSTGRES_USER: example
+      POSTGRES_PASSWORD: example123
+      POSTGRES_DB: example_db
+    restart: always
+    volumes:
+      - postgres:/var/lib/postgresql/data
+volumes:
+  postgres:
