@@ -3,11 +3,11 @@ import FormRegistro from "@/components/Forms/Registro";
 
 const PageRegistro: React.FC = () => {
     return (
-        <div className="h-screen w-full flex items-center justify-center flex-col" >
-            <div>
-                <h2 className="text-3xl font-bold text-gray-900">Registre-se abaixo:</h2>
+        <div className="my-10 w-full flex items-center justify-center flex-col gap-5" >
+            <div className="mb-10 mt-10" >
+                <h2 className="text-4xl font-bold">Registre-se abaixo:</h2>
             </div>
-            <div>
+            <div className="w-full sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl 2xl:max-w-3xl" >
                 <FormRegistro/>
             </div>
         </div>

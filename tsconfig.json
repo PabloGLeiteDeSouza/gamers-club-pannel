@@ -24,6 +24,7 @@
       "@contexts/*": ["./src/contexts/*"],
       "@componments/*": ["./src/components/*"],
       "@providers/*": ["./src/providers/*"],
+      "prisma-adapter-custom": ["./src/utils/PrismaAdapter"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/utils/verifyLogin.tsz"],
